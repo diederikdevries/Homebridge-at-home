@@ -1,0 +1,17 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "pin": "031-45-154"
+    },
+    "platforms": [
+        {
+            "platform": "Vera",
+            "name": "Vera",
+            "veraIP": "192.168.1.6",
+            "includesensor": false,
+            "securitypoll": 2000,
+            "ignoreplugins": ["Nest","PhilipsHue","Wemo"],
+            "houseModes": false
+        }
+    ]
+}
